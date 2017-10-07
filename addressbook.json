@@ -1,40 +1,40 @@
 [{
 		"firstName": "Иван",
 		"lastName": "Иванов",
-		"address": [{
+		"address": {
 			"city": "г.Москва",
 			"street": "ул. Алиева",
 			"home": "2"
-		}],
-		"phoneNumber": [{
+		},
+		"phoneNumber": {
 			"code": "499",
 			"number": "123-1234"
-		}]
+		}
 	},
 	{
 		"firstName": "Петр",
 		"lastName": "Петров",
-		"address": [{
+		"address": {
 			"city": "г.Петроград",
 			"street": " пр-т Невский",
 			"home": "12"
-		}],
-		"phoneNumber": [{
+		},
+		"phoneNumber": {
 			"code": "812",
 			"number": "123-1234"
-		}]
+		}
 	},
 	{
 		"firstName": "Сидор",
 		"lastName": "Сидоров",
-		"address": [{
+		"address": {
 			"city": "г.Китеж",
 			"street": " ул. Озерная",
 			"home": "4"
-		}],
-		"phoneNumber": [{
+		},
+		"phoneNumber": {
 			"code": "000",
 			"number": "987-6543"
-		}]
+		}
 	}
 ]

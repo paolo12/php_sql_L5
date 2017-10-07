@@ -33,14 +33,8 @@ $data = json_decode($json, true);
 		<tr>
 		    <td><?php echo $element['lastName']?></td>
 			<td><?php echo $element['firstName']?></td>
-			<td><?php foreach($element['address'] as $adres){?>
-					<?php echo $adres['city'].' '.$adres['street'].' '.$adres['home']?>
-				<?php } ?>
-			</td>
-			<td><?php foreach($element['phoneNumber'] as $pnumber){?>
-					<?php echo '('.$pnumber['code'].') '.$pnumber['number']?>
-				<?php } ?>
-			</td>
+			<td><?php echo $element['address']['city'].' '.$element['address']['street'].' '.$element['address']['home']?></td>
+			<td><?php echo '('.$element['phoneNumber']['code'].') '.$element['phoneNumber']['number']?></td>
 			</tr>
   <?php } ?>
 </table>
